@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bluemix Hackathon</title>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="form.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  
+  <body>
+    <div id="header">
+      <h1>Bluemix Hackathon</h1>
+    </div>
+    <div id="content">
+      <p>Analyze the personality of twitter users!</p>
+      <p>Text a twitter handles to</p>
+      <p class='highlight'>443-274-4097</p>
+      <p>Or enter one below</p>
+      <form action="#">
+        <label for="name">Username: </label>
+        <input id="name" placeholder="Enter Username" type="text" name="name" />
+        <br/>
+        <input id="submit" type="submit" value="Submit"/>
+      </form>
+
+      <div id="wrapper">
+        <div id="wait" style="display: none">
+          <p>Loading user profile now...</p>
+          <img src="images/loading.gif">
+        </div>
+        <div id="return" style="display: none">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

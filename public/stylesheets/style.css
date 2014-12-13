@@ -1,0 +1,53 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: #35586C;
+}
+
+h1 {
+  clear:both;
+  border-radius: 5px;
+  color: #B4CDCD;
+}
+
+body {
+  padding: 10px;
+  text-align:center;
+  background-color: #3b4b54;
+}
+
+p {
+  font-size: 20px;
+}
+#content {
+  padding-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  background-color: #607B8B;
+  height: 700px;
+  width: 70%;
+}
+
+form > label {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.highlight {
+  color: red;
+  font-size:30px;
+}
+
+ol {
+  text-align: left;
+  display: inline-block;
+  margin: 20px auto;
+}
